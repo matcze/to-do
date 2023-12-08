@@ -6,7 +6,7 @@ import Choice from "./components/Choice"
 import TodoList from "./components/TodoList"
 import Clear from "./components/Clear"
 import Copyrights from "./components/Copyrights"
-
+ 
 function App() {
 	const [inputText, setInputText] = useState("")
 	const [todos, setTodos] = useState([])
@@ -74,5 +74,3 @@ function App() {
 
 export default App
 
-
-// fixing localStorage

@@ -10,5 +10,5 @@ export default function Clear({setTodos}) {
 		<div className="clear-container">
 			<button className="clear-button" onClick={clearAllTask}>Clear All</button>
 		</div>
-	)
+	) 
 }

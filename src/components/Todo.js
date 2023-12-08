@@ -1,5 +1,5 @@
 import React from "react"
-import { useState } from "react"
+import { useState } from "react" 
 
 export default function Todo({ text, todo, todos, setTodos }) {
 	const [editedText, setEditedText] = useState("")

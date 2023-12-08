@@ -14,7 +14,7 @@ export default function Add({ setInputText, todos, setTodos, inputText}) {
 			{ text: inputText, completed: false, id: uuidv4() },
 		])
 		setInputText("")
-	}
+	} 
 
 
 	return (

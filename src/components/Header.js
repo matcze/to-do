@@ -4,7 +4,7 @@ import img1 from "../image/pic-3.png"
 export default function Header({ todos }) {
 	return (
 		<div className='header'>
-			<img src={img1} alt='' />
+			<img src={img1} alt='profile picture' />
 			<div className='first-header'>
 				<h1>Hello Jim!</h1>
 				<span>

@@ -4,7 +4,7 @@ export default function Choice({ setStatus }) {
 
 	function changeStatus(e) {
 		setStatus(e.target.value)
-	}
+	} 
 	
 	return (
 		<div className='select-container'>
